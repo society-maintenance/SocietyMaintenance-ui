@@ -1,0 +1,24 @@
+<div class="navbar-dark bg-light">
+<button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+    <div class="navbar-toggler-icon"></div>
+  </button>
+</div>
+<div id="navigation-menu"  class="navigation-menu" [ngbCollapse]="isCollapsed">
+    <div class="collapse navbar-collapse show" [ngClass]="{ 'show': navbarOpen }">
+    
+<nav class="navbar navbar-expand-* navbar-dark bg-dark" >
+        
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" href="/members">Item</a>
+          </li>
+      
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" href="/member">Item 2</a>
+          </li>
+          
+        </ul>
+     </nav>
+    </div>
+ 
+</div>

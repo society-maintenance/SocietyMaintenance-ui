@@ -1,0 +1,36 @@
+.container{
+    max-width:40%;  
+    width:45%; 
+    float:left; 
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 42.5%;
+    position: fixed;
+    z-index: 1;
+    
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .upper.left {
+    left: 15%;
+ }
+  
+  /* Control the right side */
+  .upper.right {
+    right: 0;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    padding-left: 5%;
+    text-align: left;
+    vertical-align: top;
+  }
+  
